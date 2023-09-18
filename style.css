@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --black: #282828;
+    --accent: #998431;
+    --white: #FFFFFF;
+    --dark-gray: #7B7B7B;
+    --light-gray: #C4C4C4;
+}
+body {
+  background-color: var(--black);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--white);
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
