@@ -25,3 +25,57 @@ body {
 a {
   text-decoration: none;
 }
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  list-style: none;
+  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
+}
+.menu_item {
+  border-right: 1px solid var(--white);
+  padding: 11px 107px 15px 107px;
+}
+.menu_item:last-child {
+  border: none;
+}
+.menu_item a {
+  color: var(--white);
+  font-size: 14px;
+  line-height: 21px;
+}
+.hero {
+  max-width: 922px;
+  height: 794px;
+  margin-top: 176px;
+  text-align: center;
+  border: 1px solid var(--white);
+  padding: 43px 101px 95px;
+  margin: 176px auto 256px;
+}
+.hero h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 56px;
+}
+.hero_text {
+  padding-top: 66.28px;
+  padding-bottom: 80px;
+  line-height: 24px;
+}
+.line {
+  width: 160px;
+  height: 1px;
+  margin: 0 auto 17.25px;
+}
